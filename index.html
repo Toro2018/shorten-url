@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title >byteSize</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans:200,500|Roboto:300" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="https://theme.zdassets.com/theme_assets/999974/37bf553cc3bf3500e4d06e0aa2db58c375f6530a.png"/>
+  </header>
+
+  <main >
+    <h2>This webpage will return a shortend version of entered URL. Give it a try!</h2>
+    <h2> 输入任意网址后点击提交, 系统将返回精简后的URL地址</h2>
+    <h2> For example, http://javascript.info </h2>  
+    <div class="container">
+      <h3 id="prompt">Enter a URL / 请输入URL</h3>
+      <form id="form" autocomplete="off">
+        <input type="text" id="inputField" value="https://github.com/hemanth/functional-programming-jargon#functional-programming-libraries-in-javascript">       
+        <button id="shorten">Shorten/ 提交</button>
+      </form>
+      <div id="responseField"></div>      
+    </div>
+  </main>
+ 
+  <script src="async.js"></script>
+</body>
+</html>
