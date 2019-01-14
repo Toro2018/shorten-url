@@ -40,6 +40,6 @@ const renderResponse = (res) => {
   if(!res.url){
     responseField.innerHTML = "<p>Sorry, couldn't format your URL.Try again.</p><p>请检查输入的URL格式</p>";
   } else {  
-    responseField.innerHTML = `<p>Your shortened url is: ${res.url}</p><p>您精简后的url为: ${res.url}</p>`;
+    responseField.innerHTML = `<p>Your shortened url is: https://${res.url}</p><p>您精简后的url为:</p><p>https://${res.url}</p>`;
   }
 }
